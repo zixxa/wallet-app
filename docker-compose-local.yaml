@@ -1,0 +1,17 @@
+version: "3.0"
+services:
+  db:
+    container_name: "wallet_db"
+    image: postgres:14.1-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=wallet_db
+      - POSTGRES_PASSWORD=wallet_db
+      - POSTGRES_DB=wallet_db
+    ports:
+      - "5437:5432"
+    networks:
+      - custom
+networks:
+    custom:
+      driver: bridge
