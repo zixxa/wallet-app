@@ -6,18 +6,18 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('wallet', '0002_currency_rename_currency_wallet_score'),
+        ("wallet", "0002_currency_rename_currency_wallet_score"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='currency',
-            name='rate',
+            model_name="currency",
+            name="rate",
             field=models.FloatField(default=1),
         ),
         migrations.AlterField(
-            model_name='wallet',
-            name='score',
+            model_name="wallet",
+            name="score",
             field=models.DecimalField(decimal_places=2, default=100, max_digits=10),
         ),
     ]

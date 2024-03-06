@@ -8,11 +8,15 @@ DEFAULT_CURRENCY = "RUB"
 
 
 class Currency(models.Model):
-    name = models.CharField(max_length=5, default=DEFAULT_CURRENCY, blank=False, null=False)
-    rate = models.DecimalField(decimal_places=4, max_digits=10, blank=False, default=1, null=False)
+    name = models.CharField(
+        max_length=5, default=DEFAULT_CURRENCY, blank=False, null=False
+    )
+    rate = models.DecimalField(
+        decimal_places=4, max_digits=10, blank=False, default=1, null=False
+    )
 
     class Meta:
-        db_table = 'currency'
+        db_table = "currency"
 
 
 class Profile(models.Model):
@@ -20,30 +24,37 @@ class Profile(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     class Meta:
-        db_table = 'profile'
+        db_table = "profile"
 
 
 def convert_to_currency(score, currency=DEFAULT_CURRENCY):
     return round(Decimal(score) / Currency.objects.get(name=currency).rate, 2)
 
 
-def deconvert_to_currency(score, currency=DEFAULT_CURRENCY):
-    return round(Decimal(score) / (1 / Currency.objects.get(name=currency).rate), 2)
 
-
-'''
-Изменения счета кошелька происходят только через эти методы:
+"""
+Изменения счета кошелька должны проходить только через эти методы:
 create_transaction - изменение счета и добавление записи в транзакцию
 create_error_transaction - создание записи транзакции с ошибкой
-'''
+"""
 
 
 class Wallet(models.Model):
     name = models.CharField(max_length=20, blank=False, null=False)
-    score = models.DecimalField(decimal_places=2, max_digits=10, blank=False, default=100,
-                                null=False, validators=[MinValueValidator(Decimal('0.00'))])
-    profile = models.ForeignKey(Profile, on_delete=models.CASCADE, null=False, blank=True)
-    currency = models.ForeignKey(Currency, on_delete=models.CASCADE, null=False, blank=True)
+    score = models.DecimalField(
+        decimal_places=2,
+        max_digits=10,
+        blank=False,
+        default=100,
+        null=False,
+        validators=[MinValueValidator(Decimal("0.00"))],
+    )
+    profile = models.ForeignKey(
+        Profile, on_delete=models.CASCADE, null=False, blank=True
+    )
+    currency = models.ForeignKey(
+        Currency, on_delete=models.CASCADE, null=False, blank=True
+    )
 
     def create_transaction(self, payment, currency=DEFAULT_CURRENCY, is_sender=True):
         payment = convert_to_currency(payment, currency)
@@ -65,7 +76,7 @@ class Wallet(models.Model):
         return self.name
 
     class Meta:
-        db_table = 'wallet'
+        db_table = "wallet"
 
 
 class Transaction(models.Model):
@@ -73,4 +84,4 @@ class Transaction(models.Model):
     description = models.CharField(max_length=200, blank=False, null=False)
 
     class Meta:
-        db_table = 'transaction'
+        db_table = "transaction"

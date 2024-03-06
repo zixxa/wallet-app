@@ -9,24 +9,44 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('wallet', '0005_alter_currency_rate'),
+        ("wallet", "0005_alter_currency_rate"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='wallet',
-            name='score',
-            field=models.DecimalField(decimal_places=2, default=100, max_digits=10, validators=[django.core.validators.MinValueValidator(Decimal('0.00'))]),
+            model_name="wallet",
+            name="score",
+            field=models.DecimalField(
+                decimal_places=2,
+                default=100,
+                max_digits=10,
+                validators=[django.core.validators.MinValueValidator(Decimal("0.00"))],
+            ),
         ),
         migrations.CreateModel(
-            name='Transaction',
+            name="Transaction",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('description', models.CharField(max_length=200)),
-                ('wallet', models.ForeignKey(blank=True, on_delete=django.db.models.deletion.CASCADE, to='wallet.wallet')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("description", models.CharField(max_length=200)),
+                (
+                    "wallet",
+                    models.ForeignKey(
+                        blank=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="wallet.wallet",
+                    ),
+                ),
             ],
             options={
-                'db_table': 'transaction',
+                "db_table": "transaction",
             },
         ),
     ]

@@ -8,18 +8,23 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('wallet', '0010_alter_currency_rate_alter_wallet_score'),
+        ("wallet", "0010_alter_currency_rate_alter_wallet_score"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='currency',
-            name='rate',
+            model_name="currency",
+            name="rate",
             field=models.DecimalField(decimal_places=2, default=1, max_digits=4),
         ),
         migrations.AlterField(
-            model_name='wallet',
-            name='score',
-            field=models.DecimalField(decimal_places=2, default=100, max_digits=4, validators=[django.core.validators.MinValueValidator(Decimal('0.00'))]),
+            model_name="wallet",
+            name="score",
+            field=models.DecimalField(
+                decimal_places=2,
+                default=100,
+                max_digits=4,
+                validators=[django.core.validators.MinValueValidator(Decimal("0.00"))],
+            ),
         ),
     ]

@@ -7,14 +7,19 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('wallet', '0015_alter_wallet_name'),
+        ("wallet", "0015_alter_wallet_name"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='wallet',
-            name='currency',
-            field=models.ForeignKey(blank=True, default='', on_delete=django.db.models.deletion.CASCADE, to='wallet.currency'),
+            model_name="wallet",
+            name="currency",
+            field=models.ForeignKey(
+                blank=True,
+                default="",
+                on_delete=django.db.models.deletion.CASCADE,
+                to="wallet.currency",
+            ),
             preserve_default=False,
         ),
     ]

@@ -4,52 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2088f780-b898-45c5-b121-0fbae82f329a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/wallet-test-task.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/requirements/base.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings/errors.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose-local.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0002_currency_rename_currency_wallet_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0003_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0004_alter_currency_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0005_alter_currency_rate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0006_alter_wallet_score_transaction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0007_alter_currency_rate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0008_alter_currency_rate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0009_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0010_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0011_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0012_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0013_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0014_alter_wallet_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/0015_alter_wallet_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/urls_swagger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallet/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
+    <list default="true" id="2088f780-b898-45c5-b121-0fbae82f329a" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0002_currency_rename_currency_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0002_currency_rename_currency_wallet_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0003_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0003_currency_rate_alter_wallet_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0004_alter_currency_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0004_alter_currency_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0005_alter_currency_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0005_alter_currency_rate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0006_alter_wallet_score_transaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0006_alter_wallet_score_transaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0007_alter_currency_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0007_alter_currency_rate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0008_alter_currency_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0008_alter_currency_rate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0009_alter_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0009_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0010_alter_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0010_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0011_alter_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0011_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0012_alter_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0012_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0013_alter_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0013_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0014_alter_wallet_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0014_alter_wallet_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0015_alter_wallet_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0015_alter_wallet_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/migrations/0016_wallet_currency.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0016_wallet_currency.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/urls_swagger.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/urls_swagger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,24 +184,37 @@
       <option name="presentableId" value="Default" />
       <updated>1709656148954</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1709728061869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709728061869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wallet/tests.py</url>
-          <line>106</line>
+          <line>140</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wallet/tests.py</url>
-          <line>147</line>
+          <line>205</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wallet/tests.py</url>
-          <line>130</line>
+          <line>174</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>

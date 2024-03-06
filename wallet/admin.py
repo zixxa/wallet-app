@@ -6,14 +6,16 @@ from wallet.models import Profile, Wallet, Transaction
 
 class TransactionAdminInline(admin.TabularInline):
     model = Transaction
-    readonly_fields = ('description',)
+    readonly_fields = ("description",)
+
+
 class WalletAdminInline(admin.TabularInline):
     model = Wallet
 
 
 @register(Profile)
 class ProfileAdmin(ModelAdmin):
-    list_display = ('name',)
+    list_display = ("name",)
     inlines = (WalletAdminInline,)
 
 

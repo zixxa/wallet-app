@@ -4,6 +4,4 @@ from wallet.views import WalletAPI
 
 router = DefaultRouter()
 
-urlpatterns = [
-    path('', WalletAPI.as_view())
-]
+urlpatterns = [path("", WalletAPI.as_view())]

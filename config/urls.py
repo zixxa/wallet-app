@@ -1,17 +1,17 @@
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
-from django.conf.urls.static import static # new
+from django.conf.urls.static import static  # new
 from rest_framework import routers
 
 router = routers.DefaultRouter()
 
 
 urlpatterns = [
-    path('', include('wallet.urls')),
-    path('', include('wallet.urls_swagger')),
-    path('admin/', admin.site.urls),
-    path('account', include("django.contrib.auth.urls")),
+    path("", include("wallet.urls")),
+    path("", include("wallet.urls_swagger")),
+    path("admin/", admin.site.urls),
+    path("account", include("django.contrib.auth.urls")),
 ]
 
 
