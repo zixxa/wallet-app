@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.contrib.admin import ModelAdmin, register
 
-from wallet.models import Profile, Wallet, Transaction
+from wallet.models import Profile, Wallet, Transaction, Currency
 
 
 class TransactionAdminInline(admin.TabularInline):
@@ -22,3 +22,8 @@ class ProfileAdmin(ModelAdmin):
 @register(Wallet)
 class WalletAdmin(ModelAdmin):
     inlines = (TransactionAdminInline,)
+
+
+@register(Currency)
+class CurrencyAdmin(ModelAdmin):
+    list_display = ("name", "rate")

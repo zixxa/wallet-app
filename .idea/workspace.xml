@@ -4,38 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2088f780-b898-45c5-b121-0fbae82f329a" name="Changes" comment="init">
+    <list default="true" id="2088f780-b898-45c5-b121-0fbae82f329a" name="Changes" comment="black refactoring and fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wallet/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0002_currency_rename_currency_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0002_currency_rename_currency_wallet_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0003_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0003_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0004_alter_currency_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0004_alter_currency_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0005_alter_currency_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0005_alter_currency_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0006_alter_wallet_score_transaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0006_alter_wallet_score_transaction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0007_alter_currency_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0007_alter_currency_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0008_alter_currency_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0008_alter_currency_rate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0009_alter_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0009_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0010_alter_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0010_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0011_alter_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0011_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0012_alter_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0012_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0013_alter_currency_rate_alter_wallet_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0013_alter_currency_rate_alter_wallet_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0014_alter_wallet_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0014_alter_wallet_name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0015_alter_wallet_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0015_alter_wallet_name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/migrations/0016_wallet_currency.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/migrations/0016_wallet_currency.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/urls_swagger.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/urls_swagger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallet/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wallet/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,19 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python test_post_transaction in manage.py.executor": "Debug",
-    "Python tests.Python tests for tests.TestWalletAPI.test_post_transaction.executor": "Run",
-    "Python tests.Python tests for tests.TestWalletAPI.test_post_without_auth.executor": "Run",
-    "Python tests.Python tests in manage.py.executor": "Run",
-    "Python.manage.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/zixxa/code/wallet-test-task/manage.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python test_post_transaction in manage.py.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for tests.TestWalletAPI.test_post_transaction.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.TestWalletAPI.test_post_without_auth.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in manage.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/zixxa/code/wallet-test-task/manage.py&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -85,7 +56,7 @@
       <recent name="$PROJECT_DIR$/config" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="wallet-test-task" />
       <option name="ENV_FILES" value="" />
@@ -192,12 +163,30 @@
       <option name="project" value="LOCAL" />
       <updated>1709728061869</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="black refactoring">
+      <option name="closed" value="true" />
+      <created>1709728543385</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709728543385</updated>
+    </task>
+    <task id="LOCAL-00003" summary="black refactoring and fixes">
+      <option name="closed" value="true" />
+      <created>1709728560155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709728560155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="black refactoring" />
+    <MESSAGE value="black refactoring and fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="black refactoring and fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
